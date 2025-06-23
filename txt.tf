@@ -3,31 +3,6 @@
 
 locals {
   ystv_txt_records = {
-    uk_co_ystv_dev_acme-challenge = {
-      name     = "_acme-challenge.dev.ystv.co.uk"
-      content  = "\"UAAuW6FaBPFJ9_L7WQbobraRtgueNWjzuF7hxQzedOg\""
-    }
-
-    uk_co_ystv_prod_acme-challenge = {
-      name     = "_acme-challenge.prod.ystv.co.uk"
-      content  = "\"TGt73w7naoTOLXEoNlexJ8WdUuGsYoNyHrMeDUz1IeQ\""
-    }
-
-    uk_co_ystv_acme-challenge_1 = {
-      name     = "_acme-challenge.ystv.co.uk"
-      content  = "\"FNXEXooqgI28gHFM88cZuIWejywx1SXQHfslr3d2FZE\""
-    }
-
-    uk_co_ystv_acme-challenge_2 = {
-      name     = "_acme-challenge.ystv.co.uk"
-      content  = "\"33ZphiQ_1uuyFYCTo-UfGWVylWgPBw3XWdKykAKGh_U\""
-    }
-
-    uk_co_ystv_acme-challenge_3 = {
-      name     = "_acme-challenge.ystv.co.uk"
-      content  = "\"-Gv5X9VIgpk1rER52wz_jKhyYA_WtCRtkO2joNBAbNw\""
-    }
-
     # Requsted from IT Services on 08/06/23 to verify our domain for the NCSC mail check service
     uk_co_ystv_asvdns_1 = {
       name     = "_asvdns-63f0b4c8-8a61-429e-b54b-aba51e633116.ystv.co.uk"
