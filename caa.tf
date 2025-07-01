@@ -2,8 +2,8 @@
 # For example, a CNAME record for stream.radio.roses.media becomes record_cname_media_roses_radio_stream
 
 locals {
-  caa_tags     = ["issue", "issuewild"]
-  caa_values   = ["comodoca.com", "digicert.com", "letsencrypt.org", "pki.goog"]
+  caa_tags   = ["issue", "issuewild"]
+  caa_values = ["comodoca.com", "digicert.com", "letsencrypt.org", "pki.goog"]
 
   ystv_caa_records = {
     for r in flatten([
@@ -24,8 +24,8 @@ locals {
 resource "cloudflare_dns_record" "records_caa_uk_co_ystv" {
   for_each = local.ystv_caa_records
 
-  name     = "ystv.co.uk"
-  data     = each.value.data
+  name = "ystv.co.uk"
+  data = each.value.data
 
   proxied  = false
   ttl      = 1
@@ -33,5 +33,5 @@ resource "cloudflare_dns_record" "records_caa_uk_co_ystv" {
   zone_id  = var.ystv_co_uk_zone_id
   settings = {}
   comment  = var.dns_record_comment
-  
+
 }

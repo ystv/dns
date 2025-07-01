@@ -44,5 +44,5 @@ resource "cloudflare_dns_record" "records_mx_uk_co_ystv" {
   zone_id  = var.ystv_co_uk_zone_id
   settings = {}
   comment  = var.dns_record_comment
-  
+
 }

@@ -4,32 +4,32 @@
 locals {
   ystv_a_records = {
     uk_co_ystv = {
-      name     = "ystv.co.uk"
-      content  = "144.32.100.49"
+      name    = "ystv.co.uk"
+      content = "144.32.100.49"
     }
     uk_co_ystv_dist_1 = {
-      name     = "dist.ystv.co.uk"
-      content  = "144.32.123.251"
+      name    = "dist.ystv.co.uk"
+      content = "144.32.123.251"
     }
     uk_co_ystv_dist_2 = {
-      name     = "dist.ystv.co.uk"
-      content  = "144.32.123.249"
+      name    = "dist.ystv.co.uk"
+      content = "144.32.123.249"
     }
     uk_co_ystv_local_wildcard = {
-      name     = "*.local.ystv.co.uk"
-      content  = "127.0.0.1"
+      name    = "*.local.ystv.co.uk"
+      content = "127.0.0.1"
     }
     uk_co_ystv_stargate = {
-      name     = "stargate.ystv.co.uk"
-      content  = "46.43.1.193"
+      name    = "stargate.ystv.co.uk"
+      content = "46.43.1.193"
     }
     uk_co_ystv_stream-backup = {
-      name     = "stream-backup.ystv.co.uk"
-      content  = "144.32.196.19"
+      name    = "stream-backup.ystv.co.uk"
+      content = "144.32.196.19"
     }
     uk_co_ystv_stream = {
-      name     = "stream.ystv.co.uk"
-      content  = "144.32.196.30"
+      name    = "stream.ystv.co.uk"
+      content = "144.32.196.30"
     }
   }
 }
@@ -37,8 +37,8 @@ locals {
 resource "cloudflare_dns_record" "records_a_uk_co_ystv" {
   for_each = local.ystv_a_records
 
-  name     = each.value.name
-  content  = each.value.content
+  name    = each.value.name
+  content = each.value.content
 
   proxied  = false
   ttl      = 1
@@ -46,5 +46,5 @@ resource "cloudflare_dns_record" "records_a_uk_co_ystv" {
   zone_id  = var.ystv_co_uk_zone_id
   settings = {}
   comment  = var.dns_record_comment
-  
+
 }
