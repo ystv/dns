@@ -14,6 +14,14 @@ pipeline {
     }
 
     stages {
+        stage('Check Formatting') {
+            steps {
+                script {
+                    sh(script: "terraform fmt -check")
+                }
+            }
+        }
+        
         stage('Init') {
             steps {
                 script {
