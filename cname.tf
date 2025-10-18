@@ -61,7 +61,7 @@ locals {
     }
 
     uk_co_ystv_dev_keycloak-theme = {
-      name    = "keycloak-theme.ystv.co.uk"
+      name    = "keycloak-theme.dev.ystv.co.uk"
       content = "ystv.github.io"
     }
   }
