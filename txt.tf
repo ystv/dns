@@ -73,6 +73,12 @@ locals {
       name    = "ystv.co.uk"
       content = "\"atlassian-domain-verification=/3uwVqQ9CiuSMENOPLQbWo/anEoiAXCmKMoM663URUAt7mWb6NydyI69jIW4G/hU\""
     }
+
+    # Github domain verification
+    uk_co_ystv__github-pages-challenge = {
+      name = "_github-pages-challenge-ystv.ystv.co.uk"
+      content = "\"f2a493653a6fe2eebce161ccc97b00\""
+    }
   }
 }
 
