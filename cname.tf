@@ -59,6 +59,11 @@ locals {
       name    = "minecraft.ystv.co.uk"
       content = "stargate.ystv.co.uk"
     }
+
+    uk_co_ystv_dev_keycloak-theme = {
+      name    = "keycloak-theme.ystv.co.uk"
+      content = "ystv.github.io"
+    }
   }
 }
 
