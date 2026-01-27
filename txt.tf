@@ -79,6 +79,12 @@ locals {
       name    = "_github-pages-challenge-ystv.ystv.co.uk"
       content = "\"f2a493653a6fe2eebce161ccc97b00\""
     }
+
+		# Apple Business verification
+		uk_co_ystv_apple-domain-verification  = {
+      name    = "ystv.co.uk"
+      content = "\"apple-domain-verification=lYcp1cipeYYhmBsbkhSZ55Jb2WMgLiRtG_fblr7gaSs\""
+    }
   }
 }
 
