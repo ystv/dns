@@ -81,7 +81,7 @@ locals {
     }
 
 		# Apple Business verification
-    uk_co_ystv_apple-domain-verification  = {
+    uk_co_ystv_apple-domain-verification = {
       name    = "ystv.co.uk"
       content = "\"apple-domain-verification=lYcp1cipeYYhmBsbkhSZ55Jb2WMgLiRtG_fblr7gaSs\""
     }
