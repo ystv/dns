@@ -19,6 +19,14 @@ locals {
       name    = "*.prod.ystv.co.uk"
       content = "ystv.co.uk"
     }
+    uk_co_ystv_cdn = {
+      name    = "cdn.ystv.co.uk"
+      content = "ystvcdn0.york.ac.uk"
+    }
+    uk_co_ystv_cdn_wildcard = {
+      name    = "*.cdn.ystv.co.uk"
+      content = "ystvcdn0.york.ac.uk"
+    }
     uk_co_ystv_static = {
       name    = "static.ystv.co.uk"
       content = "ystvcdn0.york.ac.uk"
