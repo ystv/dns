@@ -19,6 +19,14 @@ locals {
       name    = "*.prod.ystv.co.uk"
       content = "ystv.co.uk"
     }
+    uk_co_ystv_static = {
+      name    = "static.ystv.co.uk"
+      content = "ystv.co.uk"
+    }
+    uk_co_ystv_static_wildcard = {
+      name    = "*.static.ystv.co.uk"
+      content = "ystv.co.uk"
+    }
     uk_co_ystv_checkmate = {
       name    = "checkmate.ystv.co.uk"
       content = "stargate.ystv.co.uk"
