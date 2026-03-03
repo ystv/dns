@@ -3,10 +3,6 @@
 
 locals {
   ystv_aaaa_records = {
-    uk_co_ystv_stargate = {
-      name    = "stargate.ystv.co.uk"
-      content = "2001:41c9:1:41e::193"
-    }
   }
 }
 

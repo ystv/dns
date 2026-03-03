@@ -23,10 +23,6 @@ locals {
       name    = "*.local.ystv.co.uk"
       content = "127.0.0.1"
     }
-    uk_co_ystv_stargate = {
-      name    = "stargate.ystv.co.uk"
-      content = "46.43.1.193"
-    }
     uk_co_ystv_stream-backup = {
       name    = "stream-backup.ystv.co.uk"
       content = "144.32.196.19"

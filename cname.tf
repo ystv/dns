@@ -39,17 +39,9 @@ locals {
       name    = "*.upload.ystv.co.uk"
       content = "cdn.ystv.co.uk"
     }
-    uk_co_ystv_checkmate = {
-      name    = "checkmate.ystv.co.uk"
-      content = "stargate.ystv.co.uk"
-    }
     uk_co_ystv_filestore = {
       name    = "filestore.ystv.co.uk"
       content = "mckellen.ystv.york.ac.uk"
-    }
-    uk_co_ystv_irc = {
-      name    = "irc.ystv.co.uk"
-      content = "stargate.ystv.co.uk"
     }
     uk_co_ystv_offline = {
       name    = "offline.ystv.co.uk"
@@ -63,21 +55,9 @@ locals {
       name    = "rtmp.ystv.co.uk"
       content = "stream.ystv.co.uk"
     }
-    uk_co_ystv_smtp = {
-      name    = "smtp.ystv.co.uk"
-      content = "stargate.ystv.co.uk"
-    }
-    uk_co_ystv_talkback = {
-      name    = "talkback.ystv.co.uk"
-      content = "stargate.ystv.co.uk"
-    }
     uk_co_ystv_web-videos = {
       name    = "web-videos.ystv.co.uk"
       content = "cloud9.ystv.york.ac.uk"
-    }
-    uk_co_ystv_minecraft = {
-      name    = "minecraft.ystv.co.uk"
-      content = "stargate.ystv.co.uk"
     }
 
     uk_co_ystv_dev_keycloak-theme = {
