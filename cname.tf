@@ -35,6 +35,14 @@ locals {
       name    = "*.static.ystv.co.uk"
       content = "ystvcdn0.york.ac.uk"
     }
+    uk_co_ystv_upload = {
+      name    = "upload.ystv.co.uk"
+      content = "ystvcdn0.york.ac.uk"
+    }
+    uk_co_ystv_upload_wildcard = {
+      name    = "*.upload.ystv.co.uk"
+      content = "ystvcdn0.york.ac.uk"
+    }
     uk_co_ystv_checkmate = {
       name    = "checkmate.ystv.co.uk"
       content = "stargate.ystv.co.uk"
