@@ -9,6 +9,10 @@ pipeline {
         node 'nomad'
     }
 
+    options {
+        ansiColor('xterm')
+    }
+
     environment {
         CLOUDFLARE_API_TOKEN = credentials('cloudflare-api-token-ystv-dns')
     }
