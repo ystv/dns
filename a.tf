@@ -7,6 +7,10 @@ locals {
       name    = "ystv.co.uk"
       content = "144.32.100.49"
     }
+    uk_co_ystv_cdn = {
+      name    = "cdn.ystv.co.uk"
+      content = "144.32.124.121" # ystvcdn0.york.ac.uk
+    }
     uk_co_ystv_dist_1 = {
       name    = "dist.ystv.co.uk"
       content = "144.32.123.251"
