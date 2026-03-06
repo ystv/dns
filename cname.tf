@@ -13,7 +13,7 @@ locals {
     }
     uk_co_ystv_dev_wildcard = {
       name    = "*.dev.ystv.co.uk"
-      content = "ystv.co.uk"
+      content = "vip.infra.ystv.co.uk"
     }
     uk_co_ystv_prod_wildcard = {
       name    = "*.prod.ystv.co.uk"

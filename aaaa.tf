@@ -7,6 +7,10 @@ locals {
       name    = "cdn.ystv.co.uk"
       content = "2001:630:61:17c::1:79" # ystvcdn0.york.ac.uk
     }
+    uk_co_ystv_infra_vip = {
+      name    = "vip.infra.ystv.co.uk"
+      content = "2001:630:61:17c::1:79" # ystvwebvip0.york.ac.uk
+    }
   }
 }
 
