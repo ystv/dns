@@ -5,7 +5,7 @@ locals {
   ystv_cname_records = {
     uk_co_ystv_wildcard = {
       name    = "*.ystv.co.uk"
-      content = "ystv.co.uk"
+      content = "vip.infra.ystv.co.uk"
     }
     uk_co_ystv_comp_wildcard = {
       name    = "*.comp.ystv.co.uk"
