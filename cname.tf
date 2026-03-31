@@ -9,7 +9,7 @@ locals {
     }
     uk_co_ystv_comp_wildcard = {
       name    = "*.comp.ystv.co.uk"
-      content = "ystv.co.uk"
+      content = "vip.infra.ystv.co.uk"
     }
     uk_co_ystv_dev_wildcard = {
       name    = "*.dev.ystv.co.uk"
@@ -17,7 +17,7 @@ locals {
     }
     uk_co_ystv_prod_wildcard = {
       name    = "*.prod.ystv.co.uk"
-      content = "ystv.co.uk"
+      content = "vip.infra.ystv.co.uk"
     }
     uk_co_ystv_cdn_wildcard = {
       name    = "*.cdn.ystv.co.uk"
