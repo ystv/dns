@@ -4,7 +4,7 @@
 locals {
   ystv_a_records = {
     uk_co_ystv = {
-      name    = "vip.infra.ystv.co.uk"
+      name    = "ystv.co.uk"
       content = "144.32.196.120" # ystvwebvip0.york.ac.uk
     }
     uk_co_ystv_cdn = {
