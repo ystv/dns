@@ -3,6 +3,10 @@
 
 locals {
   ystv_cname_records = {
+    uk_co_ystv = {
+      name    = "ystv.co.uk"
+      content = "vip.infra.ystv.co.uk"
+    }
     uk_co_ystv_wildcard = {
       name    = "*.ystv.co.uk"
       content = "vip.infra.ystv.co.uk"
