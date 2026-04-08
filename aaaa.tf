@@ -3,6 +3,10 @@
 
 locals {
   ystv_aaaa_records = {
+    uk_co_ystv = {
+      name    = "ystv.co.uk"
+      content = "2001:630:61:1c4::1:78" # ystvwebvip0.york.ac.uk
+    }
     uk_co_ystv_cdn = {
       name    = "cdn.ystv.co.uk"
       content = "2001:630:61:17c::1:79" # ystvcdn0.york.ac.uk
