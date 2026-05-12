@@ -7,7 +7,7 @@ resource "cloudflare_dns_record" "record_srv_uk_co_ystv_elections_minecraft" {
   data = {
     port     = 25565
     priority = 0
-    target   = "speed.ystv.york.ac.uk"
+    target   = "temjin.infra.archess.mn"
     weight   = 0
   }
   settings = {}
