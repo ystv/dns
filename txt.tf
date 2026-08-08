@@ -85,6 +85,12 @@ locals {
       name    = "ystv.co.uk"
       content = "\"apple-domain-verification=lYcp1cipeYYhmBsbkhSZ55Jb2WMgLiRtG_fblr7gaSs\""
     }
+
+    # Bluesky
+    uk_co_ystv__atproto = {
+      name    = "_atproto.ystv.co.uk"
+      content = "\"did=did:plc:kgwjl7rmjjgak76an4b2et64\""
+    }
   }
 }
 
