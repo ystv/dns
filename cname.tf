@@ -59,6 +59,10 @@ locals {
       name    = "web-videos.ystv.co.uk"
       content = "cloud9.ystv.york.ac.uk"
     }
+    uk_co_ystv_checkmate = {
+      name    = "checkmate.ystv.co.uk"
+      content = "cdn.ystv.co.uk"
+    }
 
     uk_co_ystv_dev_keycloak-theme = {
       name    = "keycloak-theme.dev.ystv.co.uk"
