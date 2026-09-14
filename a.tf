@@ -7,10 +7,6 @@ locals {
       name    = "ystv.co.uk"
       content = "144.32.196.120" # ystvwebvip0.york.ac.uk
     }
-    uk_co_ystv_cdn = {
-      name    = "cdn.ystv.co.uk"
-      content = "144.32.124.121" # ystvcdn0.york.ac.uk
-    }
     uk_co_ystv_infra_vip = {
       name    = "vip.infra.ystv.co.uk"
       content = "144.32.196.120" # ystvwebvip0.york.ac.uk

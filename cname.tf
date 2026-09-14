@@ -19,25 +19,29 @@ locals {
       name    = "*.prod.ystv.co.uk"
       content = "vip.infra.ystv.co.uk"
     }
+    uk_co_ystv_cdn = {
+      name    = "cdn.ystv.co.uk"
+      content = "ystvcdn0.net.ystv.co.uk"
+    }
     uk_co_ystv_cdn_wildcard = {
       name    = "*.cdn.ystv.co.uk"
-      content = "cdn.ystv.co.uk"
+      content = "ystvcdn0.net.ystv.co.uk"
     }
     uk_co_ystv_static = {
       name    = "static.ystv.co.uk"
-      content = "cdn.ystv.co.uk"
+      content = "ystvcdn0.net.ystv.co.uk"
     }
     uk_co_ystv_static_wildcard = {
       name    = "*.static.ystv.co.uk"
-      content = "cdn.ystv.co.uk"
+      content = "ystvcdn0.net.ystv.co.uk"
     }
     uk_co_ystv_upload = {
       name    = "upload.ystv.co.uk"
-      content = "cdn.ystv.co.uk"
+      content = "ystvcdn0.net.ystv.co.uk"
     }
     uk_co_ystv_upload_wildcard = {
       name    = "*.upload.ystv.co.uk"
-      content = "cdn.ystv.co.uk"
+      content = "ystvcdn0.net.ystv.co.uk"
     }
     uk_co_ystv_filestore = {
       name    = "filestore.ystv.co.uk"
@@ -61,7 +65,7 @@ locals {
     }
     uk_co_ystv_checkmate = {
       name    = "checkmate.ystv.co.uk"
-      content = "cdn.ystv.co.uk"
+      content = "ystvcdn0.net.ystv.co.uk"
     }
 
     uk_co_ystv_dev_keycloak-theme = {
