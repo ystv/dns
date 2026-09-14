@@ -7,10 +7,6 @@ locals {
       name    = "ystv.co.uk"
       content = "144.32.196.120" # ystvwebvip0.york.ac.uk
     }
-    uk_co_ystv_infra_vip = {
-      name    = "vip.infra.ystv.co.uk"
-      content = "144.32.196.120" # ystvwebvip0.york.ac.uk
-    }
     uk_co_ystv_dist_1 = {
       name    = "dist.ystv.co.uk"
       content = "144.32.123.251"
@@ -22,14 +18,6 @@ locals {
     uk_co_ystv_local_wildcard = {
       name    = "*.local.ystv.co.uk"
       content = "127.0.0.1"
-    }
-    uk_co_ystv_stream-backup = {
-      name    = "stream-backup.ystv.co.uk"
-      content = "144.32.196.19"
-    }
-    uk_co_ystv_stream = {
-      name    = "stream.ystv.co.uk"
-      content = "144.32.196.30"
     }
   }
 }
