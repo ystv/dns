@@ -2,8 +2,8 @@
 # For example, a CNAME record for stream.radio.roses.media becomes record_cname_media_roses_radio_stream
 
 locals {
-  caa_tags   = ["issue", "issuewild"]
-  caa_values = ["comodoca.com", "digicert.com", "letsencrypt.org", "pki.goog"]
+  caa_tags   = ["issue"]
+  caa_values = ["letsencrypt.org"]
 
   ystv_caa_records = {
     for r in flatten([
