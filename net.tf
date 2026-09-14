@@ -90,7 +90,7 @@ locals {
 }
 
 resource "cloudflare_dns_record" "hosts_a_uk_co_ystv_net" {
-  for_each = local.hosts
+  for_each = {for host, ips in local.hosts : host => ips if contains(keys(ips), "ipv4")}
 
   name    = "${each.value.name}.net.ystv.co.uk."
   content = lookup(each.value.content, "ipv4", "N/A")
@@ -101,14 +101,10 @@ resource "cloudflare_dns_record" "hosts_a_uk_co_ystv_net" {
   zone_id  = var.ystv_co_uk_zone_id
   settings = {}
   comment  = var.dns_record_comment
-
-  lifecycle {
-    enabled = contains(keys(each.value.content), "ipv4")
-  }
 }
 
 resource "cloudflare_dns_record" "hosts_aaaa_uk_co_ystv_net" {
-  for_each = local.hosts
+  for_each = {for host, ips in local.hosts : host => ips if contains(keys(ips), "ipv6")}
 
   name    = "${each.value.name}.net.ystv.co.uk."
   content = lookup(each.value.content, "ipv6", "N/A")
@@ -119,8 +115,4 @@ resource "cloudflare_dns_record" "hosts_aaaa_uk_co_ystv_net" {
   zone_id  = var.ystv_co_uk_zone_id
   settings = {}
   comment  = var.dns_record_comment
-
-  lifecycle {
-    enabled = contains(keys(each.value.content), "ipv6")
-  }
 }
