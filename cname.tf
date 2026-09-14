@@ -63,6 +63,14 @@ locals {
       name    = "checkmate.ystv.co.uk"
       content = "ystvcdn0.net.ystv.co.uk"
     }
+    uk_co_ystv_stream-backup = {
+      name    = "stream-backup.ystv.co.uk"
+      content = "ystvstrm0.net.ystv.co.uk"
+    }
+    uk_co_ystv_stream = {
+      name    = "stream.ystv.co.uk"
+      content = "ystvstrm1.net.ystv.co.uk"
+    }
 
     uk_co_ystv_dev_keycloak-theme = {
       name    = "keycloak-theme.dev.ystv.co.uk"
