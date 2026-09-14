@@ -45,11 +45,7 @@ locals {
     }
     uk_co_ystv_filestore = {
       name    = "filestore.ystv.co.uk"
-      content = "mckellen.ystv.york.ac.uk"
-    }
-    uk_co_ystv_offline = {
-      name    = "offline.ystv.co.uk"
-      content = "ystvmonitoring0.ystv.york.ac.uk"
+      content = "mckellen.net.ystv.co.uk"
     }
     uk_co_ystv_roses = {
       name    = "roses.ystv.co.uk"
@@ -61,7 +57,7 @@ locals {
     }
     uk_co_ystv_web-videos = {
       name    = "web-videos.ystv.co.uk"
-      content = "cloud9.ystv.york.ac.uk"
+      content = "cloud9.net.ystv.co.uk"
     }
     uk_co_ystv_checkmate = {
       name    = "checkmate.ystv.co.uk"
