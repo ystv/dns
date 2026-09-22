@@ -10,6 +10,7 @@ resource "cloudflare_dns_record" "record_srv_uk_co_ystv_elections_minecraft" {
     target   = "temjin.infra.archess.mn"
     weight   = 0
   }
+  tags = []
   settings = {}
   comment  = var.dns_record_comment
 }
@@ -26,6 +27,7 @@ resource "cloudflare_dns_record" "record_srv_uk_co_ystv_elections_minecraft_2" {
     target   = "temjin.infra.archess.mn"
     weight   = 0
   }
+  tags = []
   settings = {}
   comment  = var.dns_record_comment
 }
