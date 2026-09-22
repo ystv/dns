@@ -5,11 +5,11 @@ resource "cloudflare_dns_record" "record_srv_uk_co_ystv_elections_minecraft" {
   type    = "SRV"
   zone_id = var.ystv_co_uk_zone_id
   data = {
-    port     = 25565
-    priority = 0
-    target   = "temjin.infra.archess.mn"
-    weight   = 0
+    port   = 25565
+    target = "temjin.infra.archess.mn"
+    weight = 0
   }
+  priority = 0
   tags     = []
   settings = {}
   comment  = var.dns_record_comment
