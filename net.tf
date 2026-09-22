@@ -98,7 +98,7 @@ locals {
 resource "cloudflare_dns_record" "hosts_a_uk_co_ystv_net" {
   for_each = { for host, ips in local.hosts : host => ips if contains(keys(ips), "ipv4") }
 
-  name    = "${each.key}.net.ystv.co.uk."
+  name    = "${each.key}.net.ystv.co.uk"
   content = lookup(each.value, "ipv4", "N/A")
 
   proxied  = false
@@ -112,7 +112,7 @@ resource "cloudflare_dns_record" "hosts_a_uk_co_ystv_net" {
 resource "cloudflare_dns_record" "hosts_aaaa_uk_co_ystv_net" {
   for_each = { for host, ips in local.hosts : host => ips if contains(keys(ips), "ipv6") }
 
-  name    = "${each.key}.net.ystv.co.uk."
+  name    = "${each.key}.net.ystv.co.uk"
   content = lookup(each.value, "ipv6", "N/A")
 
   proxied  = false
